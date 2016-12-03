@@ -296,7 +296,10 @@ public class Application {
           application.handleConfigurationEvent(zookeeperConfigurationProvider.getConfiguration());
         }
       } else {
-        File configurationFile = new File(commandLine.getOptionValue('f'));
+//        File configurationFile = new File(commandLine.getOptionValue('f'));
+
+        File configurationFile = new File("/Users/noodles/Documents/workspace/flume/conf/a1.conf");
+
 
         /*
          * The following is to ensure that by default the agent will fail on
