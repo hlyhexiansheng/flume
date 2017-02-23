@@ -24,8 +24,7 @@ public final class WriteOrderOracle {
 
   private WriteOrderOracle() {}
 
-  private static final AtomicLong WRITER_ORDERER =
-      new AtomicLong(System.currentTimeMillis());
+  private static final AtomicLong WRITER_ORDERER = new AtomicLong(System.currentTimeMillis());
 
   public static void setSeed(long highest) {
     long previous;

@@ -131,8 +131,7 @@ public class TaildirMatcher {
     };
 
     // sanity check
-    Preconditions.checkState(parentDir.exists(),
-        "Directory does not exist: " + parentDir.getAbsolutePath());
+    Preconditions.checkState(parentDir.exists(), "Directory does not exist: " + parentDir.getAbsolutePath());
   }
 
   /**
